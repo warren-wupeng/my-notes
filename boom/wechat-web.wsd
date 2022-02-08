@@ -1,0 +1,40 @@
+@startuml
+
+autonumber
+
+actor "用户" as User
+participant "Web前端" as WebFrontend
+participant "后端" as Backend #orange
+participant "微信开放平台" as WeChat
+
+activate User
+
+User -> WebFrontend: 点击微信登录按钮
+activate WebFrontend
+
+WebFrontend --> WeChat: 通过JS调用微信，回调地址，一个随机state
+WeChat --> WebFrontend: 返回二维码
+
+WebFrontend --> User: 显示二维码
+User --> WeChat: 扫描二维码，在手机上授权
+WeChat --> WebFrontend: 微信JS组件回调登录地址，带着code+state
+WebFrontend --> Backend: 调用后端登录接口,带着code
+Backend --> WeChat: code+appscret换取access_token
+Backend --> Backend: 储存微信access_token和refresh_token
+Backend --> WeChat: 获取用户微信profile
+Backend --> Backend: 判断微信profile是否已经绑定用户
+
+
+alt  未绑定
+Backend --> WebFrontend: 用户未绑定
+WebFrontend --> User: 绑定手机页面
+User --> WebFrontend: 填写手机，获取验证码
+WebFrontend --> Backend: PhoneVerifications:get
+User --> WebFrontend: 填写验证码，点击绑定
+WebFrontend --> Backend: 绑定微信profile接口，带着手机+验证码+code
+
+end
+Backend --> WebFrontend: boom access token
+
+
+@enduml
