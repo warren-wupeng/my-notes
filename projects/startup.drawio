@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T14:07:28.132Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4NIpqQohJ_TxfisCwXzo" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T14:08:29.346Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="78Jz6Q-3VdXH2AgHHTBM" version="22.1.7" type="github">
   <diagram name="第 1 页" id="Yx0_KaVScuL6UOeJacfx">
     <mxGraphModel dx="954" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -16,10 +16,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1EhqjQ9QfdzI11k8vf5l-14" value="媒体曝光" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="252" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EhqjQ9QfdzI11k8vf5l-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1EhqjQ9QfdzI11k8vf5l-15" target="1EhqjQ9QfdzI11k8vf5l-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1EhqjQ9QfdzI11k8vf5l-15" value="KOL candidates" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1EhqjQ9QfdzI11k8vf5l-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" target="1EhqjQ9QfdzI11k8vf5l-12">
           <mxGeometry relative="1" as="geometry">
@@ -65,8 +68,11 @@
         <mxCell id="1EhqjQ9QfdzI11k8vf5l-30" value="Trickleai" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="400" y="402" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="1EhqjQ9QfdzI11k8vf5l-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1EhqjQ9QfdzI11k8vf5l-33" target="1EhqjQ9QfdzI11k8vf5l-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1EhqjQ9QfdzI11k8vf5l-33" value="Contracted KOL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="252" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
