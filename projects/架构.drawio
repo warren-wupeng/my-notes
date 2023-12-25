@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T14:53:20.685Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mZFPnjOPqGIj_mDqPKDz" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-25T14:55:35.820Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="lLwjXjc9e_qQ1z75FbR1" version="22.1.11" type="github" pages="3">
   <diagram name="CPU体系结构" id="NraEcWmfw-qaGPGi_mHX">
     <mxGraphModel dx="954" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -251,7 +251,7 @@
         <mxCell id="TQvrMmatEHaUQB7o5kDT-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CPU的功能：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;程序控制&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;操作控制&lt;/span&gt;&lt;/li&gt;&lt;li&gt;时间控制&lt;/li&gt;&lt;li&gt;数据处理&lt;/li&gt;&lt;li&gt;响应中断&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
           <mxGeometry x="220" y="70" width="110" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="TQvrMmatEHaUQB7o5kDT-5" value="指令译码器（IR）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="TQvrMmatEHaUQB7o5kDT-5" value="指令译码器（ID）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="607" y="210" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TQvrMmatEHaUQB7o5kDT-6" value="运算单元（ALU）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
