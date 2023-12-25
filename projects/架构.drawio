@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-24T14:31:48.445Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qARfcQfLMlg9yUgSQu6Y" version="22.1.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-25T02:09:05.531Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="X9Nw_RvUuenlfU2Y0A3F" version="22.1.11" type="github" pages="3">
   <diagram name="CPU体系结构" id="NraEcWmfw-qaGPGi_mHX">
-    <mxGraphModel dx="1434" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,7 +189,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xs73hL1SJ9LS5x5RBAai" name="von-arch">
-    <mxGraphModel dx="1434" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -219,31 +219,31 @@
           <mxGeometry x="410" y="160" width="290" height="340" as="geometry" />
         </mxCell>
         <mxCell id="hSldv2LeDiiyj6Ni2Ttu-13" value="控制单元&lt;br&gt;(Control Unit)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="430" y="200" width="260" height="60" as="geometry" />
+          <mxGeometry x="427" y="200" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hSldv2LeDiiyj6Ni2Ttu-14" value="算术/逻辑单元&lt;br&gt;(Arithmetic / Logic Unit)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="430" y="273" width="260" height="60" as="geometry" />
+          <mxGeometry x="427" y="273" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hSldv2LeDiiyj6Ni2Ttu-15" value="&amp;nbsp;寄存器&lt;br&gt;&amp;nbsp;Registers" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=left;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="430" y="347" width="260" height="130" as="geometry" />
+          <mxGeometry x="427" y="347" width="260" height="130" as="geometry" />
         </mxCell>
         <mxCell id="hSldv2LeDiiyj6Ni2Ttu-16" value="程序计数器（PC）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="530" y="370" width="70" height="40" as="geometry" />
+          <mxGeometry x="527" y="370" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSldv2LeDiiyj6Ni2Ttu-17" value="指令寄存器（IR）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="610" y="370" width="70" height="40" as="geometry" />
+          <mxGeometry x="607" y="370" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSldv2LeDiiyj6Ni2Ttu-18" value="存储单元&lt;br&gt;(Memory Unit)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="495" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hSldv2LeDiiyj6Ni2Ttu-19" value="累加器（AC）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="450" y="420" width="70" height="40" as="geometry" />
+          <mxGeometry x="447" y="420" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSldv2LeDiiyj6Ni2Ttu-20" value="地址寄存器（AR）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="530" y="420" width="70" height="40" as="geometry" />
+          <mxGeometry x="527" y="420" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSldv2LeDiiyj6Ni2Ttu-21" value="数据寄存器（DR）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="610" y="420" width="70" height="40" as="geometry" />
+          <mxGeometry x="607" y="420" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSldv2LeDiiyj6Ni2Ttu-25" value="冯·诺伊曼架构&lt;br&gt;Von-Neumann Architecture" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="500" y="60" width="100" height="40" as="geometry" />
@@ -252,7 +252,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wA_5-5cW64mp7Bm1A0E6" name="进程资源图">
-    <mxGraphModel dx="954" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
